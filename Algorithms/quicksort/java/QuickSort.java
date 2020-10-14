@@ -17,9 +17,11 @@ public class QuickSort {
         myArr[j] = temp;
       }
     }
+   
 
     // Swap arr[i+1] and arr[high] / Pivot
 
+   
     int temp = myArr[i + 1];
     myArr[i + 1] = myArr[high];
     myArr[high] = temp;
